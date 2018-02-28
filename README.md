@@ -32,6 +32,12 @@ $ cd PPark
 $ pip install hpark
 ```
 
+#### Or
+
+```
+$ pip install git+https://github.com/aabbfive/PPark
+```
+
 ### Examples
 
 Simple syntax
