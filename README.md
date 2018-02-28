@@ -40,8 +40,6 @@ $ pip install git+https://github.com/aabbfive/PPark
 
 ### Examples
 
-Simple syntax
-
 ```
 from PPark import Lexer
 from PPark.constant import Keyword, Keywords
