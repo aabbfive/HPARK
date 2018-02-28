@@ -10,7 +10,7 @@
 </h1>
 
 <h4 align="center">The best lexing library available any python version confused (2.x, 3.x, PyPy...)</h4>
-
+![split](https://github.com/terkelg/prompts/raw/master/media/split.png)
 ## 💾 Install
 
 Download the latest version of PPark from
