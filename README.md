@@ -34,10 +34,11 @@ $ pip install hpark
 
 ### Examples
 
-sub..
+Simple syntax
 
 ```
-from lexer import Lexer, Keyword, Keywords
+from PPark import Lexer
+from PPark.constant import Keyword, Keywords
 
 lexer = Lexer()
 lexer.addRule('INTEGER', r'([0-9]+)')
