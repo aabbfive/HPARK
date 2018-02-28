@@ -72,7 +72,7 @@ def IDENTIFIER(token):
 		token.type = token.value.upper()
 		return token
 lexer.input("""
-t = 12
+t = 12*2
 """)
 for token in lexer:
 	print(token)
