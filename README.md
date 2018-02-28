@@ -37,7 +37,44 @@ $ pip install hpark
 sub..
 
 ```
-..
+from lexer import Lexer, Keyword, Keywords
+
+lexer = Lexer()
+lexer.addRule('INTEGER', r'([0-9]+)')
+lexer.addRule('OP', Keywords([
+	Keyword('}'), 
+	Keyword('{'),
+	Keyword('^'),
+	Keyword(']'),
+	Keyword('['),
+	Keyword('>'),
+	Keyword('<'),
+	Keyword('='),
+	Keyword('.'),
+	Keyword('-'),
+	Keyword(','),
+	Keyword('+'),
+	Keyword('**'),
+	Keyword('*'),
+	Keyword('/'),
+	Keyword('//'),
+	Keyword('%'),
+	Keyword(')'),
+	Keyword('(')
+	]))
+@lexer.on_match(r'"([^"\n]|(\\"))*"')
+def STRING(token):
+	token.value = token.value[1:][:-1]
+@lexer.on_match(r'[a-zA-Z_$]\w*')
+def IDENTIFIER(token):
+	if keywords.contains(token.value):
+		token.type = token.value.upper()
+		return token
+lexer.input("""
+t = 12
+""")
+for token in lexer:
+	print(token)
 ```
 
 ## License
