@@ -29,7 +29,7 @@ $ cd PPark
 ### Install the library
 
 ```
-$ pip install hpark
+$ pip install PPark
 ```
 
 #### Or
