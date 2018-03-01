@@ -11,13 +11,13 @@
 
 <h4 align="center">The best lexing library available any python version confused (2.x, 3.x, PyPy...)</h4>
 
-## 💾 Install
+## &#x1F4BE; Install
 
 Download the latest version of PPark from
 the [GitHub releases](https://github.com/aabbfive/PPark/releases) page.
 
 
-## 💬 How to Contribute
+## &#x1F4AC; How to Contribute
 
 ### Get the code
 
