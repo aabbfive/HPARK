@@ -82,6 +82,6 @@ for token in lexer:
 	print(token)
 ```
 
-## ©️ License
+## &#x00A9;&#xFE0F; License
 
 MIT. Copyright (c) [Aabbfive](https://github.com/aabbfive).
