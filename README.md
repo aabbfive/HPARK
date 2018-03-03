@@ -39,7 +39,7 @@ $ pip install git+https://github.com/aabbfive/PPark
 ```
 
 ### Sample
-<img src="sample.png" alt="Sample">
+<img src="sample.png" alt="Sample" width="75%">
 
 ## &#x00A9;&#xFE0F; License
 
