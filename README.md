@@ -9,7 +9,7 @@
   <br>
 </h1>
 
-<h4 align="center">The best lexing library available any python version confused (2.x, 3.x, PyPy...)</h4>
+<h4 align="center">&#128204; The best lexing library available any python version confused (2.x, 3.x, PyPy...)</h4>
 
 ## &#x1F4BE; Install
 
