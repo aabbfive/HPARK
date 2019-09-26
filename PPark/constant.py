@@ -13,7 +13,7 @@ class Keyword(object):
 class Keywords(object):
 	def __init__(self, _keywords):
 		keywords = list(map(Keyword, _keywords))
-		self.__data		= list(sorted(keywords, key=lambda dat: dat.value, reverse=True))
+		self.__data		= keywords
 		self.__rules_p 	= list(map(lambda keyword: keyword.pattern, self.__data))
 		self.__rules_v	= list(map(lambda keyword: keyword.value, self.__data))
 	def contains(self, item):
